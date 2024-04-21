@@ -24,7 +24,7 @@ public class ItemsController {
     }
 
     @GetMapping("/get")
-    public List<Integer> addItems(){
+    public List<Integer> getItems(){
         return orderService.getItems();
     }
 }
